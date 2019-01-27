@@ -83,3 +83,4 @@ function resetGame() {
     loseData.textContent = '0';
     drawData.textContent = '0';
 }
+console.log('dwdw');
