@@ -1,18 +1,43 @@
 <DOCTYPE html>
     <html>
+
     <head>
         <title>Rock, Paper, Scissors</title>
+        <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-    
-    <div id="container">
-        <button id="btn1">Rock</button>
-        <button id="btn2">Paper</button>
-        <button id="btn3">Scissors</button>
-    </div>
-    
-     </body>
-    
+
+        <div id="container">
+            <p>Please choose: </p>
+            <button id="rock-button">Rock</button>
+            <button id="paper-button">Paper</button>
+            <button id="scissors-button">Scissors</button>
+        </div>
+        <div>
+            <table class="blueTable">
+                <thead>
+                    <tr>
+                        <th>Win</th>
+                        <th>Lose</th>
+                        <th>Draw</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="win">0</td>
+                        <td id="lose">0</td>
+                        <td id="draw">0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button id="reset">Reset</button>
+        </div>
+        <div>
+            <p>Rules: Win 3 Games</p>
+        </div>
+    </body>
+
     <script type="text/javascript" src="script.js"></script>
-    
+
     </html>
