@@ -1,0 +1,28 @@
+table.GeneratedTable {
+    width: 30%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #001cff;
+    border-style: solid;
+    color: #000000;
+  }
+  
+  table.GeneratedTable td, table.GeneratedTable th {
+    border-width: 2px;
+    border-color: #001cff;
+    border-style: solid;
+    padding: 3px;
+  }
+  
+  table.GeneratedTable thead {
+    background-color: #31ff00;
+  }
+
+  td {
+      text-align: center;
+  }
+  #container, .scoreboard, .rules {
+      width:800px;
+      margin: 0 auto;
+  }
